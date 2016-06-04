@@ -18,6 +18,13 @@ $(document).ready(function(){
         },2000);
             $('.phoneNum').removeClass('tada');
     },3000);
+    //движение патефона на социалках
+    setInterval(function(){
+        setTimeout(function(){
+            $('.socializm').addClass('shake');
+        },4500);
+        $('.socializm').removeClass('shake');
+    },6000);
     //разворачивание и сворачивание описания услуг перед футером
     $('#info').hide("slow");
     $('#more').click(function(){

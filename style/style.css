@@ -185,6 +185,16 @@ body{
     font-size: 500%;
     top: 10px;
 }
+.fa-odnoklassniki-square{
+    color: darkorange;
+}
+.odnokl{
+    color: darkorange;
+    text-decoration: none;
+}
+.fa-vk{
+    color: dodgerblue;
+}
 .sotialLinks:hover{
     transition: 500ms;
     background-color: rgba(0, 200, 50, 0.8);
@@ -242,6 +252,10 @@ body{
         height: 300px;
         border: 1px solid black;
         margin-left: 17%;
+    }
+    .mobilePhone {
+        display: inline-block;
+        width: 40%;
     }
 }
 @media (max-width: 768px){
