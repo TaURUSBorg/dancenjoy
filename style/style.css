@@ -1,0 +1,280 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-image: url(../img/fon.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#before-load{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#before-load i {
+    width: 200px; /*ширина gif-изображения*/
+    height: 200px; /*высота gif-изображения*/
+    position: absolute;
+    background-image: url('../img/711%20(1).gif');
+    background-repeat: no-repeat;
+    margin-left: 40%;
+    margin-top: 30%;
+    border-color: 1px solid white;
+    border-radius: 50%;
+}
+.header{
+    background-color: rgba(250, 250, 250, 0.1);
+    width: 100%;
+    height: 15%;
+    overflow: hidden;
+}
+.maxWidth{
+    width: 100%;
+    height: 100%;
+    max-width: 1024px;
+    margin: auto;
+}
+.tabbable{
+    min-height: 77.5%;
+}
+.tabsLinks{
+    text-align: center;
+    color: aliceblue;
+}
+.tabsLinks :hover{
+    transition: 800ms;
+    color: dimgrey;
+}
+.logo{
+    width: 60%;
+    height: 100%;
+    margin-left: 20%;
+    background-image: url(../img/logo.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 1;
+    background-position: center;
+}
+.carousel-inner{
+    top: 10px;
+    border: 1px solid white;
+    height: 10%;
+    width: 100%;
+    height: 100%;
+    bottom: 10px
+}
+.item img{
+    width: 100%;
+    height: 100%;
+}
+.widthKarus{
+    width: 50%;
+    max-width: 700px;
+    height: 50%;
+    margin: auto;
+}
+.tableText{
+    width: 100%;
+    display: block;
+    position: relative;
+    clear: both;
+}
+.prevText{
+    display: inline-block;
+    font-size: 80%;
+    height: 80px;
+    color: white;
+    font-family:sans-serif;
+    font-style: italic;
+    margin-top: 2%;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 3%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 120, 250, 0.8);
+    margin-left: 5%;
+}
+.priseTabs{
+    height: 250px;
+    width: 400px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 1px solid white;
+    padding-top: 5%;
+    border-radius: 50%;
+}
+.col{
+    font-size: 150%;
+    color: whitesmoke;
+    text-align: center;
+}
+.col:hover{
+    color: currentColor;
+}
+.one{
+    background-color: rgba(204, 0, 204, 0.2);
+}
+.one:hover{
+    transition: 1000ms;
+    position: relative;
+    background-image: url(../img/1.jpg);
+    background-position: bottom;
+    background-size: cover;
+    box-shadow: -5px 5px 5px gray;
+}
+.two{
+    background-color: rgba(153, 0, 204, 0.2);
+}
+.two:hover{
+    transition: 1000ms;
+    position: relative;
+    background-image: url(../img/2.jpg);
+    background-position: bottom;
+    background-size: cover;
+    box-shadow: 5px 5px 5px gray;
+}
+.tree{
+    background-color: rgba(102, 0, 204, 0.2);
+}
+.tree:hover{
+    transition: 1000ms;
+    position: relative;
+    background-image: url(../img/3.jpg);
+    background-position: bottom;
+    background-size: cover;
+    box-shadow: 5px 5px 5px gray;
+}
+.fourth{
+    background-color: rgba(51, 0, 204, 0.2);
+}
+.fourth:hover{
+    transition: 1000ms;
+    position: relative;
+    background-image: url(../img/4.jpg);
+    background-position: bottom;
+    background-size: cover;
+    box-shadow: 5px 5px 5px gray;
+}
+.five{
+    background-color: rgba(0, 0, 204, 0.2);
+}
+.five:hover{
+    transition: 1000ms;
+    position: relative;
+    background-image: url(../img/5.jpg);
+    background-position: bottom;
+    background-size: cover;
+    box-shadow: -5px 5px 5px gray;
+}
+.sotialLinks{
+    background-color: rgba(250, 250, 250, 0.2);
+    height: 400px;
+    border: 1px solid black;
+    margin-left: 4%;
+    margin-top: 10%;
+    border-radius: 3%;
+    text-align: center;
+    color: white;
+}
+.sotialLinks i{
+    font-size: 500%;
+    top: 10px;
+}
+.sotialLinks:hover{
+    transition: 500ms;
+    background-color: rgba(0, 200, 50, 0.8);
+    color: dimgrey;
+}
+.last{
+    background-color: rgba(250, 250, 250, 0.1);
+}
+#more{
+    width: 100%;
+    color: darkslateblue;
+    text-align: center;
+    margin-top: 10px;
+}
+#more:hover{
+    transition: 1000ms;
+    background-color: rgba(0, 200, 100, 0.8);
+    cursor: pointer;
+    border-collapse:collapse;
+    color: dimgrey;
+}
+#info{
+    color: white;
+}
+.footer{
+    text-align: center;
+    width: 100%;
+    height: 5%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    clear: both;
+}
+@media (min-width: 1100px) {
+    .prevText{
+        display: block;
+        height: 10%;
+        color: white;
+        margin-top: 2%;
+        border: 1px solid white;
+        font-size: 100%;
+    }
+}
+@media (max-width: 992px){
+    .prevText{
+        display: block;
+        height: 10%;
+        color: white;
+        margin-top: 2%;
+        border: 1px solid white;
+        font-size: 100%;
+        margin-left: 0;
+    }
+    .sotialLinks{
+        background-color: rgba(250, 250, 250, 0.2);
+        height: 300px;
+        border: 1px solid black;
+        margin-left: 17%;
+    }
+}
+@media (max-width: 768px){
+    .prevText{
+        display: block;
+        height: 10%;
+        color: white;
+        margin-top: 2%;
+        border: 1px solid white;
+        font-size: 100%;
+        margin-left: 0;
+    }
+    .sotialLinks{
+        background-color: rgba(250, 250, 250, 0.2);
+        height: 300px;
+        border: 1px solid black;
+        margin-left: 17%;
+    }
+}
+@media (max-width: 768px){
+    .prevText{
+        display: block;
+        height: 10%;
+        color: white;
+        margin-top: 2%;
+        border: 1px solid white;
+        font-size: 100%;
+        margin-left: 0;
+    }
+    .sotialLinks{
+    background-color: rgba(250, 250, 250, 0.2);
+    height: 300px;
+    border: 1px solid black;
+    margin-left: 8.3%;
+    }
+}
