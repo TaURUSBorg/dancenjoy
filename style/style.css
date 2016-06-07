@@ -242,7 +242,6 @@ body{
 @media (max-width: 992px){
     .prevText{
         display: block;
-        height: 10%;
         color: white;
         margin-top: 2%;
         border: 1px solid white;
@@ -263,7 +262,6 @@ body{
 @media (max-width: 768px){
     .prevText{
         display: block;
-        height: 10%;
         color: white;
         margin-top: 2%;
         border: 1px solid white;
@@ -280,7 +278,6 @@ body{
 @media (max-width: 768px){
     .prevText{
         display: block;
-        height: 10%;
         color: white;
         margin-top: 2%;
         border: 1px solid white;
