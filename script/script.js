@@ -34,7 +34,7 @@ $(document).ready(function(){
     if($('#tab2').click()){
         $('.vipadLeft').addClass('slideInLeft');
         $('.vipadRight').addClass('slideInRight');
-        $('.vipadBottom').addClass('zoomIn');
+        $('.vipadBottom').addClass('slideInDown');
     } else {
         $('.vipadLeft').removeClass('slideInLeft');
         $('.vipadRight').removeClass('slideInRight');

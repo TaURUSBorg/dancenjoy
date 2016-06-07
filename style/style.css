@@ -82,11 +82,13 @@ body{
     display: block;
     position: relative;
     clear: both;
+    height: 300px;
 }
 .prevText{
+    position:absolute;
     display: inline-block;
     font-size: 80%;
-    height: 80px;
+    height: 100px;
     color: white;
     font-family:sans-serif;
     font-style: italic;
@@ -230,7 +232,7 @@ body{
 @media (min-width: 1100px) {
     .prevText{
         display: block;
-        height: 10%;
+        height: 150px;
         color: white;
         margin-top: 2%;
         border: 1px solid white;
